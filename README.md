@@ -1,6 +1,6 @@
 # Reto Blobs
 ## Descripcion
-Este es un conjunto artificial creado utilizando la funcion `make_circles` de [sklearn.datasets](http://scikit-learn.org/stable/modules/classes.html#samples-generator).
+Este es un conjunto artificial creado utilizando la funcion `make_moons` de [sklearn.datasets](http://scikit-learn.org/stable/modules/classes.html#samples-generator).
 
 ![graph](images/graph.png)
 
