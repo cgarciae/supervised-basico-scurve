@@ -1,10 +1,10 @@
-# Reto Blobs
+# Reto S-Curve
 ## Descripcion
-Este es un conjunto artificial creado utilizando la funcion `make_moons` de [sklearn.datasets](http://scikit-learn.org/stable/modules/classes.html#samples-generator).
+Este es un conjunto artificial creado utilizando la funcion `make_s_curve` de [sklearn.datasets](http://scikit-learn.org/stable/modules/classes.html#samples-generator) y desechando la segunda dimension.
 
 ![graph](images/graph.png)
 
-Consiste en 400 datos divididos en 2 grupos.
+Consiste en 400 datos.
 
 ### Ranking
 Ver [ranking](https://github.com/cgarciae/supervised-basico-circles/blob/master/ranking.md).
@@ -16,22 +16,18 @@ Los datos se encuentran en los siguientes archivos CSV:
 
 ### Variables
 * Features: Las primeras 2 columnas del csv son las cooredenadas `x` y `ỳ`.
-* Lables: La ultima cooredenada es la clase a la cual corresponde el dato.
+* Lables: La ultima cooredenada es altura.
 
 
 ### Objetivo
-Crear un algortimo que tome como input un vector 2D y retone la clase a la que pertenece ese punto. Solo se puede utilizar los datos del `traning-set.csv` para entrenar.
+Crear un algortimo que tome como input un vector 2D y retone posible altura de ese punto en la curva. Solo se puede utilizar los datos del `traning-set.csv` para entrenar.
 
-El performance se debe medir con respecto a los datos del `test-set.csv` utilizando la siguiente formula
-```python
-score = n_aciertos / n_total * 100
-```
-donde `n_aciertos` es el numero de imagenes clasificadas de forma correcta y `n_total` es el numero total de muestras en el `test-set`.
+El performance se debe medir con respecto a los datos del `test-set.csv` utilizando la metrica [R2](https://en.wikipedia.org/wiki/Coefficient_of_determination).
 
 ### Notas Teoricas
-* [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
 * [SVM](https://en.wikipedia.org/wiki/Support_vector_machine)
 * [Decision Trees](https://en.wikipedia.org/wiki/Decision_tree_learning)
+* [Neural Network](https://en.wikipedia.org/wiki/Artificial_neural_network)
 
 ### Solucion
 Ver procedimiento de [solucion](https://github.com/colomb-ia/formato-retos#solucion).
