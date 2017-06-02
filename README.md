@@ -7,7 +7,7 @@ Este es un conjunto artificial creado utilizando la funcion `make_s_curve` de [s
 Consiste en 400 datos.
 
 ### Ranking
-Ver [ranking](https://github.com/cgarciae/supervised-basico-circles/blob/master/ranking.md).
+Ver [ranking](https://github.com/cgarciae/supervised-basico-scurve/blob/master/ranking.md).
 
 ### Formato Datos
 Los datos se encuentran en los siguientes archivos CSV:
@@ -48,8 +48,8 @@ Ver procedimiento de [solucion](https://github.com/colomb-ia/formato-retos#soluc
 Para resolver este reto primero has un [fork](https://help.github.com/articles/fork-a-repo/) de este repositorio y [clona](https://help.github.com/articles/cloning-a-repository/) el fork en tu maquina.
 
 ```bash
-git clone https://github.com/{username}/supervised-avanzado-mnist
-cd supervised-avanzado-mnist
+git clone https://github.com/{username}/supervised-basico-scurve
+cd supervised-basico-scurve
 ```
 
 *Nota: reemplaza `{username}` con tu nombre de usuario de Github.*
